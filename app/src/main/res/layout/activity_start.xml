@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.admin.catchtheball.start">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catch The Ball"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <TableRow
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/pink"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pinkPoint"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/orange"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orangePoint"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gameOver"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startButton"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorAccent"
+        android:onClick="startGame"/>
+
+</LinearLayout>

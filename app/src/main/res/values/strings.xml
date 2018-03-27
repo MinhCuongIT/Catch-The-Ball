@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Catch The Ball</string>
+    <string name="gameOver">Game Over</string>
+    <string name="retry">Try Again</string>
+    <string name="score">150</string>
+    <string name="highScore">High Score : 0</string>
+    <string name="pinkPoint">30 Point</string>
+    <string name="orangePoint">10 Point</string>
+    <string name="startButton">Start</string>
+</resources>
