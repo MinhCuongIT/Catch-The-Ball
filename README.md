@@ -10,4 +10,5 @@ A 2D Android Game
 * All the balls come with different speed.
 
 ### Demo
-![Alt Text](https://github.com/Samarth175/Catch-The-Ball/edit/master/demo.gif)
+
+![Alt Text](https://github.com/Samarth175/Catch-The-Ball/blob/master/demo.gif)
