@@ -11,4 +11,4 @@ A 2D Android Game
 
 ### Demo
 
-![Alt Text](https://github.com/Samarth175/Catch-The-Ball/blob/master/demo.gif)
+<img src="https://github.com/Samarth175/Catch-The-Ball/blob/master/demo.gif" alt="demo" width="300px" />
