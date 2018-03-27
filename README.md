@@ -8,3 +8,6 @@ A 2D Android Game
 * On catching the pink ball, the user get 30 points and catching the yellow ball gives 10 points.
 * On catching the black ball, the game gets over.
 * All the balls come with different speed.
+
+### Demo
+![Alt Text](https://github.com/Samarth175/Catch-The-Ball/edit/master/demo.gif)
